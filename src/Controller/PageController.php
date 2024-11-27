@@ -15,6 +15,7 @@ class PageController extends AbstractController
             'controller_name' => 'PageController',
         ]);
     }
+
     #[Route('/contact', name: 'page_contact')]
     public function contact(): Response
     {
